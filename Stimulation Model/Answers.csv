@@ -1,0 +1,10 @@
+Question ID,Question Text,Answer (Value),Formula / Link (Type this in Excel)
+Q1,Annual Depreciation (Straight-Line),Link to Inputs,='Inputs'!G2
+Q2,Total Depreciation Life Span (Straight-Line),Link to Schedule,=SUM('Schedule_SL'!C2:C11)
+Q3,Book Value After Life Span (Straight-Line),Link to Schedule,='Schedule_SL'!D11
+Q4,Depreciation Rate (Diminishing Balance),Link to Inputs,='Inputs'!H2
+Q5,Depreciation Amount in Year 2 (DB),Link to Schedule,='Schedule_DB'!C3
+Q6,Book Value in Year 4 (DB),Link to Schedule,='Schedule_DB'!D5
+Q7,Total Depreciation Life Span (DB),Link to Schedule,=SUM('Schedule_DB'!C2:C11)
+Q8,Book Value After Life Span (DB),Link to Schedule,='Schedule_DB'!D11
+Q9,Which Method has Higher Total Depreciation?,Equal,=IF(B2=B7,"Both are Equal","Error in Logic")
