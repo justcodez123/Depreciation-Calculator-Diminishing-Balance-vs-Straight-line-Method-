@@ -3,8 +3,6 @@
 ##  Project Overview
 This project is a comprehensive financial modeling tool developed to compare two fundamental methods of asset depreciation: **Straight-Line (SL)** and **Diminishing Balance (DB)**. It provides a dynamic Excel-based engine to help businesses and individuals understand how different accounting methods impact asset valuation and expense distribution over time.
 
-Developed as part of the **CoachX MITG** program, this model is essential for making data-driven decisions on asset management.
-
 ---
 
 ##  Key Objectives
